@@ -1,0 +1,298 @@
+
+.navigation .nav-menu ul li  a {
+    color: #818181;
+}
+
+.nav-link :hover{
+    color : white ;
+}
+
+.navigation .nav-menu ul .dropdown a:hover {
+    color: white;
+}
+
+.navigation .nav-menu .active {
+    color : white;
+}
+/* -------------------------------------------------------------------
+    END NAV-MENU 
+---------------------------------------------------------------------*/
+
+/* -------------------------------------------------------------------
+    START CONTAINER-D 
+---------------------------------------------------------------------*/
+
+.container-d {
+    background-image : url(./images/bg_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    padding : 8% 0 8% 0;
+}
+
+.section-title {
+    line-height: 30px;
+}
+
+.section-title p {
+    color: #818181;
+}
+
+.section-title p a{
+    text-decoration: none;
+    color:white;
+}
+
+.section-title p a:hover {
+   
+    text-decoration: underline;
+}
+
+.section-title .btn1{
+    border : 3px solid #818181;
+    background-color : transparent ;
+    padding : 5px 35px 5px 35px;
+    color: #818181;
+}
+
+.section-title .btn2{
+    border : 3px solid #ff9412;
+    background-color : #ff9412 ;
+    padding : 5px 45px 5px 45px;
+    color: white;
+}
+
+
+/* -------------------------------------------------------------------
+    END CONTAINER-D 
+---------------------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------------
+    START CONTAINER-D2
+---------------------------------------------------------------------*/
+
+.container-d2 {
+    background-color: #ffffff;
+    padding : 2% 0 2% 0;
+}
+
+/* -------------------------------------------------------------------
+    END CONTAINER-D2 
+---------------------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------------
+    START CONTAINER-D3
+---------------------------------------------------------------------*/
+.container-d3 {
+    background-color: #f7f5f4;
+}
+
+.container-d3 .section-title {
+    padding-bottom: 5%;
+}
+
+.icon i {
+    display: block;
+    font-size: 54px;
+    color: #382526;
+    margin-bottom: 36px;
+}
+
+/* -------------------------------------------------------------------
+    END CONTAINER-D3 
+---------------------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------------
+    START CONTAINER-D4
+---------------------------------------------------------------------*/
+
+.container-d4 {
+    background-color: #ffffff;
+}
+
+.container-d4 .section-title {
+    padding: 5% 0 5% 0;
+}
+
+#container-elmt {
+    background-color: #f7f5f4;
+}
+
+#container-elmt p {
+    font-size: 1.5rem;
+}
+
+.container-d4 .col-lg-6 a {
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------------
+    END CONTAINER-D4 
+---------------------------------------------------------------------*/
+
+
+/* -------------------------------------------------------------------
+    START FOOTER
+---------------------------------------------------------------------*/
+
+
+#footer {
+    background: #232323;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
+
+
+/* -------------------------------------------------------------------
+    END INDEX.HTML
+---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .contact .info i {
+    font-size: 20px;
+    color: #0563bb;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #eef7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #45505b;
+  }
+  
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #728394;
+  }
+  
+  .contact .info .email,
+  .contact .info .phone {
+    margin-top: 40px;
+  }
+  
+  .contact .info .email:hover i,
+  .contact .info .address:hover i,
+  .contact .info .phone:hover i {
+    background: #0563bb;
+    color: #fff;
+  }
+  
+  .contact .php-email-form {
+    width: 100%;
+    background: #fff;
+  }
+  
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form input {
+    height: 44px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    background: #0563bb;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+    background: #0678e3;
+  }
+  
